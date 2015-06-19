@@ -1,0 +1,7 @@
+node_modules
+
+# Contains sensitive info
+config.json
+
+# Generated from LESS
+style.css

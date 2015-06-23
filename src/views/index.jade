@@ -2,20 +2,21 @@ extends layout
 
 block content
   h1 Evernote Certified Developers Program
-  h2 Exercise 5
+  h2 Exercise 8
+  h3 Authentication and Other API Features
 
   - if(session.error)
-    h3 Error
+    h4 Error
     p
       = session.error
-  h3 Authentication
+  h4 Authentication
   - if(session.oauthAccessToken)
     a(href='/clear') Click here to clear credentials
   - else
     a(href='/oauth') Click here to connect to Evernote
 
   - if(session.notebooks)
-    h3 Notebooks
+    h4 Notebooks
     ul
       - for (var i = 0; i < session.notebooks.length; ++i)
         li= session.notebooks[i].name

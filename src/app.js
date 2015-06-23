@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Module dependencies
 var express = require('express'),
     routes = require('./routes'),

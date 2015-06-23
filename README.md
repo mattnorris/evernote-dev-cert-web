@@ -14,4 +14,4 @@ Sign up for an Evernote sandbox account at https://sandbox.evernote.com/Registra
 
     npm start
 
-Visit http://localhost:3000 to authenticate and view your notebooks.
+Visit **http://localhost:3000** to authenticate and view your notebooks.

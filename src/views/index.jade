@@ -9,14 +9,14 @@ block content
     h4 Error
     p
       = session.error
-  h4 Authentication
+
   - if(session.oauthAccessToken)
     a(href='/clear') Click here to clear credentials
   - else
     a(href='/oauth') Click here to connect to Evernote
 
   - if(session.notebooks)
-    h4 Notebooks
-    ul
+    h4 Your notebooks
+    ol
       - for (var i = 0; i < session.notebooks.length; ++i)
         li= session.notebooks[i].name

@@ -1,14 +1,16 @@
 {
-  "name": "en-dev-cert-ex-5-web",
-  "version": "0.0.0",
-  "description": "",
+  "name": "evernote-dev-cert-web",
+  "version": "0.0.1",
+  "description": "Evernote Certified Developer Program Exercise 8",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "src/app.js"
   },
   "author": "@mattnorrisme",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.1.2",
     "evernote": "^1.25.7",
     "express": "3.1.0",
     "jade": "^1.11.0",
